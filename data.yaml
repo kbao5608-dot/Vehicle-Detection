@@ -1,0 +1,13 @@
+train: dataset/train/images
+val: dataset/valid/images
+test: dataset/test/images
+
+nc: 5
+names: ['bus', 'construction', 'cyclist', 'pedestrian', 'vehicle']
+
+roboflow:
+  workspace: cv-2022-kyjj6
+  project: tesi
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cv-2022-kyjj6/tesi/dataset/3
